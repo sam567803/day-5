@@ -5,6 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>About Us</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">  
 	<link rel="stylesheet" href="styles/normalize-fwd.css">
 	<link rel="stylesheet" href="styles/about.css">
 </head>
@@ -61,7 +64,7 @@
 					<label for="passwort">Password</label>
 					<input type="password" name="user-password" id="password]">
 
-					<label for="bio"Biography></label>
+					<label for="bio">biography</label>
                     <textarea name="user-bio" id="bio"></textarea>
 				</fieldset>
 
@@ -70,6 +73,11 @@
 						<span class="number">2</span>
 						your basic info
 					</legend>
+					<label>preferred work settings</label>
+					<input type="radio" name="work setup" id="hybrid" value="hybrid">
+					<label for="hybrid" class="light">hybrid</label>
+
+					<input type="radio" name="work-setup" id="remote" value="remote">
 				</fieldset>
 			</form>
 				
